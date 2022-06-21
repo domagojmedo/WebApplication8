@@ -17,4 +17,7 @@ jobs:
       run: |
         echo "$PWD"
         ls -a
+        docker build \
+        -f WebApplication8/Dockerfile \
+        .
   
